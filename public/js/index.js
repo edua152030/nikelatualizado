@@ -78,7 +78,7 @@ function getAccount(key){
 function checkLogged(){
 
     if(session){
-        session.setItem("logged", session);
+        sessionStorage.setItem("logged", session);
 
         logged = session;
     }
